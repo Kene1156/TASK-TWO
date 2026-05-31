@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Contact Form</h1>
+    <p>Hello there! Thank you for joining us at Kene's web! Now you've known us, we'd love to know you too! Kindly take a moment to fill this form below:</p>
+
+    <form id="contactForm" action="https://formspree.io/f/xqabygwd" method="post" enctype="multipart/form-data" target="_blank"> 
+
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" name="username" placeholder="your full name" required>
+        </div><br>
+    
+        <div>
+            <label for="email"> Email:</label>
+            <input type="email" placeholder="email@gmail.com" name="email" required>
+        </div><br>
+
+        <div>
+            <label for="password">Password</label>
+            <input type="password" placeholder="enter your password here" name="password entry" required >
+        </div><br>
+
+        <div>
+            <label for="phone"> Phone Number:</label>
+            <input type="tel" placeholder="+2340000000000" name="tel" required>    
+        </div><br>
+
+        <div>
+            <label for="gender">Gender:</label><br>
+            <input type="radio" name="gender" value="male">
+            <label for="">Male</label>
+
+            <input type="radio" name="gender" value="female" >
+            <label for="gender">Female</label>
+
+            <input type="radio" name="gender" value="other">
+            <label for="gender">Other</label>
+        </div><br>
+
+        <div>
+            <label> Hobbies (you can select more than one): </label> <br>
+            <input type="checkbox" name="hobby1">Music<br>
+            <input type="checkbox" name="hobby2">Movies<br>
+            <input type="checkbox" name="hobby3">Games<br>
+            <input type="checkbox" name="hobby4">Sports <br>
+            <input type="checkbox" name="hobby5">Dancing <br>
+            <input type="checkbox" name="hobby6">Singing
+        </div><br>
+
+        <label for="rating">Rate your tech journey so far</label>
+        <select name="options">
+            <option value="1">bad</option>
+            <option value="2">good</option>
+            <option value="3">very good</option>
+            <option value="4">excellent</option>
+            <option value="5">outstanding</option>
+        </select><br><br>
+
+        <div>
+            <label for="message">Message:</label> <br> 
+            <textarea name="message" placeholder="tell us a little about yourself" rows="4" cols="60"style="width:300px;" ></textarea>
+        </div><br>
+    
+        <button type="submit"> SUBMIT FORM</button>
+    </form><br>
+
+    Click <a href="index.html">here</a> to go back to Kene's web.
+</body>
+</html>

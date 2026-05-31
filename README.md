@@ -7,3 +7,4 @@ The footer section contains the copyright info of the webpage.
 The second html file is the contact form, named contact.html. Using the form tag, this webpage contains form options to be filled by a user.
 The form consists of label tags, input types for name, email, password, phone number as an extra item, radio and checkbox for options, dropdown select tag, a textarea and submit button.
 The form made use of several attributes as well. It further consists of a link to go back to the hub webpage after submission.
+N/B: THIS CODE WAS WRITTEN BY ME ALONE BUT ON ANOTHER PERSON'S SYSTE AND VS CODE, HENCE THE COMMITS BEING FROM ANOTHER ACCOUNT. NO PIRACY OR COPYING WAS DONE, FPR THE PURPOSE OF MARKING. THANK YOU.
